@@ -4,11 +4,13 @@
   "description": "",
   "main": "doIt.js",
   "scripts": {
+    "start": "node ./doIt.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wouter Van Schandevijl <woutervs@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "shelljs": "^0.8.2"
   }
 }
